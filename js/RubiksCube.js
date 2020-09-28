@@ -48,11 +48,11 @@ function showPage(){
     document.getElementById("page").style.display = "block";
 }
 
-var defaults = {"useVirtual":false,
+var defaults = {"useVirtual":true,
                 "hideTimer":false,
-                "showScramble":true,
-                "realScrambles":true,
-                "randAUF":true,
+                "showScramble":false,
+                "realScrambles":false,
+                "randAUF":false,
                 "prescramble":true,
                 "goInOrder":false,
                 "goToNextCase":false,
@@ -66,12 +66,12 @@ var defaults = {"useVirtual":false,
                 "cubeType":"3x3",
                 "algsetpicker":document.getElementById("algsetpicker").options[0].value,
                 "useCustomColourScheme":false,
-                "customColourU":"yellow",
-                "customColourD":"white",
-                "customColourF":"orange",
-                "customColourB":"red",
-                "customColourR":"blue",
-                "customColourL":"green"
+                "customColourU":"white",
+                "customColourD":"yellow",
+                "customColourF":"blue",
+                "customColourB":"green",
+                "customColourR":"orange",
+                "customColourL":"red"
                };
 
 for (var setting in defaults){
