@@ -1,4 +1,4 @@
-var style = {
+var ols = {
    [ "E F E' F'",
 "E F' E' F",
 "E' F E F'",
@@ -13,6 +13,6 @@ var style = {
 
 window.algs = { 
    
-	"5-style": style,
+	"5-style": ols,
   
 };
