@@ -66,12 +66,12 @@ var defaults = {"useVirtual":true,
                 "cubeType":"3x3",
                 "algsetpicker":document.getElementById("algsetpicker").options[0].value,
                 "useCustomColourScheme":false,
-                "customColourU":"white",
-                "customColourD":"yellow",
-                "customColourF":"blue",
-                "customColourB":"green",
-                "customColourR":"orange",
-                "customColourL":"red"
+                "customColourU":"yellow",
+                "customColourD":"white",
+                "customColourF":"orange",
+                "customColourB":"red",
+                "customColourR":"blue",
+                "customColourL":"green"
                };
 
 for (var setting in defaults){
