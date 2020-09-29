@@ -1,12 +1,12 @@
 var ols = {
-   [ "E F E' F'",
+  2: [ "E F E' F'",
 "E F' E' F",
 "E' F E F'",
 "E' F' E F",
 "F E F' E'",
 "F E' F' E",
 "F' E F E'",
-"F' E' F E"]
+"F' E' F E"],
    
 };
 
